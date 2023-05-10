@@ -1,5 +1,11 @@
 @tailwind base;
 @layer base {
+  // scroll behavior should be smooth if reduced motion is not enabled
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
 }
 
 @tailwind components;
