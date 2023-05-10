@@ -13,7 +13,7 @@ export default function MainLayout() {
         <div className="col-start-3 self-center justify-self-end">
           <label className="flex flex-col items-center">
             Theme:
-            <ThemeSwitch />
+            <ThemeSwitch className="text-neutral-950 dark:text-neutral-50" />
           </label>
         </div>
       </header>
