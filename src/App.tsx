@@ -12,7 +12,7 @@ import MovieDetailPage from "./pages/MovieDetailPage";
 import MoviesListPage from "./pages/MoviesListPage";
 import SearchPage from "./pages/SearchPage";
 import ShowDetailPage from "./pages/ShowDetailPage";
-import ShowsListPage from "./pages/ShowsListPage";
+import ShowsListPage from "./pages/ShowListPage";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
