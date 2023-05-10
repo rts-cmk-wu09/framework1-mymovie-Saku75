@@ -17,7 +17,7 @@ export default function MainLayout() {
           </label>
         </div>
       </header>
-      <main className="flex h-full flex-col gap-4 overflow-y-auto">
+      <main className="overlay flex h-full flex-col gap-4 overflow-y-auto">
         <Outlet />
       </main>
       <footer className="h-16 px-4"></footer>
