@@ -11,6 +11,9 @@
     "format": "prettier --write .",
     "prepare": "husky install"
   },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
